@@ -53,16 +53,15 @@ nano .env
 
 ```console
 screen -S Dria
-ollama pull hellord/mxbai-embed-large-v1:f16
-ollama pull phi3:3.8b
 
 sudo systemctl start docker
 
 chmod +x start.sh
-./start.sh --help
 
 ./start.sh -m=llama3.1:latest -m=gpt-3.5-turbo
 ```
+
+> CTRL A D İLE ÇIKALIM
 
 > Ana screende loglara bakalım.
 
