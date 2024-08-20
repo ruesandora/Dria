@@ -1,5 +1,9 @@
 # Dria
 
+> Mevcut sunucularımdan birinde run ediyorum.
+
+> Boş duran sunucuyu Allah sevmez, beklentisiz runladım.
+
 ## Kurulum
 
 ```console
