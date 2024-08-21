@@ -69,7 +69,7 @@ chmod +x start.sh
 
 > Ana screende loglara bakalım.
 
-> `docker compose logs -f ollama`
+> `docker compose logs -f compute`
 
 <img width="957" alt="Ekran Resmi 2024-08-20 00 47 23" src="https://github.com/user-attachments/assets/28f3a3a7-d4e6-4dec-96a0-6d38bc69d419">
 
