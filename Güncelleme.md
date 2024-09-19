@@ -41,7 +41,7 @@ ollama pull hellord/mxbai-embed-large-v1:f16
 ```console
 ./dkn-compute-launcher -m=llama3.1:latest -m=gpt-4o-mini
 ```
-> Komutu girdikten sonra 2 defa enter e basıyoruz
+> Komutu girdikten sonra 2 defa enter e basıyoruz, bazı paketleri kontrol ediyor ve indirme işlemi yapıyor çalışmaya başlaması biraz zaaman alabilir
 
 > CTRL A D İLE ÇIKALIM
 
