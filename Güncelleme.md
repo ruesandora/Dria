@@ -29,7 +29,6 @@ cd dkn-compute-node
 
 ```console
 nano .env
-#
 ```
 > `.env` içersinde testnet `DKN_WALLET_SECRET_KEY i ve OPENAI_API_KEY i` ekliyoruz.
 >ctrl+x y enter ile çıkalım
