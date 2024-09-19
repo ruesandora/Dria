@@ -24,8 +24,8 @@ sudo apt update && sudo apt upgrade -y
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-```console
 # Dria kurulumu
+```console
 curl -L -o dkn-compute-node.zip https://github.com/firstbatchxyz/dkn-compute-launcher/releases/latest/download/dkn-compute-launcher-linux-amd64.zip
 unzip dkn-compute-node.zip
 cd dkn-compute-node
