@@ -37,11 +37,10 @@ nano .env
 ```
 >ctrl+x y enter ile çıkalım
 
-> ollama yı yüklüyoruz
+> Dria yı çalıştırıyoruz
 ```console
 ollama pull hellord/mxbai-embed-large-v1:f16
 ```
-> Dria yı çalıştırıyoruz
 ```console
 ./dkn-compute-launcher -m=llama3.1:latest -m=gpt-4o-mini
 ```
