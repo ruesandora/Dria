@@ -27,16 +27,17 @@ unzip dkn-compute-node.zip
 cd dkn-compute-node
 ```
 
+> `.env` içersinde testnet `DKN_WALLET_SECRET_KEY i ve OPENAI_API_KEY i` ekliyoruz.
 ```console
 nano .env
 ```
-> `.env` içersinde testnet `DKN_WALLET_SECRET_KEY i ve OPENAI_API_KEY i` ekliyoruz.
 >ctrl+x y enter ile çıkalım
 
-
+> ollama yı yüklüyoruz
 ```console
 ollama pull hellord/mxbai-embed-large-v1:f16
 ```
+> Dria yı çalıştırıyoruz
 ```console
 ./dkn-compute-launcher -m=llama3.1:latest -m=gpt-4o-mini
 ```
