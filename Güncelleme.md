@@ -19,6 +19,10 @@ rm -rf dkn-compute-node
 ```console
 sudo apt update && sudo apt upgrade -y
 ```
+# Ollama kurulumu
+```console
+curl -fsSL https://ollama.com/install.sh | sh
+```
 
 ```console
 # Dria kurulumu
